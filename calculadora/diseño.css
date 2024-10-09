@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.contenedor {
+    background-color: #e5addc; 
+    padding: 20px;
+    border-radius: 10px; 
+    
+}
+
+table {
+    width: 380px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+input[name="mostrador"] {
+    width: 410px;
+    height: 60px;
+    font-size: 30px;
+    text-align: right;
+    border-radius: 5px;
+    border: 1px solid #ff00dd;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    border: 1px solid #ff00dd;
+    background-color: #f787de;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #9c348b;
+    color: #ff33e4;
+}

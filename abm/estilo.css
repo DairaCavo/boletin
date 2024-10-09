@@ -1,0 +1,79 @@
+body {
+    background-color: #99cafc; /* Color de fondo de la página */
+    display: flex; /* Usar flexbox para alinear elementos */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    height: 80vh; /* Altura del body  */
+    align-items: center; /* Centra verticalmente el contenido */
+}
+
+form {
+    padding: 20px; /* Espacio interno alrededor del formulario */
+}
+
+.button {
+    display: inline-block; /* Permite el uso de padding y margin */
+    padding: 1%; /* Espacio interno en el botón */
+    font-size: 100%; /* Tamaño de fuente del botón */
+    color: #fff; /* Color del texto del botón */
+    background-color: #2c79cc; /* Color de fondo del botón */
+    border-radius: 5px; /* Bordes redondeados del botón */
+    text-align: center; /* Centra el texto del botón */
+    text-decoration: none; /* Elimina el subrayado del texto */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Efectos de transición al pasar el mouse */
+    margin: 2%; /* Espaciado alrededor del botón */
+}
+
+.button:hover {
+    background-color: #023c7a; /* Cambia el color de fondo al pasar el mouse */
+    transform: scale(1.05); /* Aumenta el tamaño del botón al pasar el mouse */
+}
+
+
+input[type="text"], input[type="number"] {
+    display: block; /* Hace que los campos ocupen toda la línea */
+    width: 100%; /* Ancho completo del contenedor */
+    padding: 5px; /* Espacio interno dentro del campo */
+    margin-bottom: 5px; /* Espaciado en la parte inferior del campo */
+    border: 1px solid #656eee; /* Color y estilo del borde */
+    border-radius: 5px; /* Bordes redondeados del campo */
+}
+
+input[type="submit"] {
+    display: inline-block; /* Permite el uso de padding y margin */
+    padding: 3%; /* Espacio interno en el botón */
+    font-size: 100%; /* Tamaño de la letra  */
+    background-color: #54a2f7; /* Color de fondo  */
+    border-radius: 5px; /* Bordes redondeados  */
+    text-align: center; /* Centra el texto  */
+    text-decoration: none; /* Elimina el subrayado del texto */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Efectos de transición al pasar el mouse */
+    margin: 2%; /* Espaciado alrededor  */
+}
+
+input[type="submit"]:hover {
+    background-color: #023c7a; /* Cambia el color de fondo al pasar el mouse */
+    transform: scale(1.05); /* Aumenta el tamaño del botón al pasar el mouse */
+}
+
+table {
+    width: auto; /* Ancho automático de la tabla */
+    border-collapse: collapse; /* Colapsa bordes de celdas adyacentes */
+    margin-top: 20px; /* Espaciado en la parte superior de la tabla */
+}
+
+table, th, td {
+    border: 1px solid #0028aa; /* Color y estilo del borde de la tabla */
+}
+
+th, td {
+    padding: 10px; /* Espacio interno en celdas */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+th {
+    background-color: #77b9ff; /* Color de fondo del encabezado de la tabla */
+}
+
+tr {
+    background-color: #b3ebf5; /* Color de fondo de las filas */
+}
